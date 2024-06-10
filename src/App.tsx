@@ -1,47 +1,11 @@
-import { useRef, useEffect, useState, useLayoutEffect } from 'react';
-import { layerListExpand, map, view } from './Scene';
-import Query from '@arcgis/core/rest/support/Query';
+import { useRef, useEffect, useState } from 'react';
+import { map, view } from './Scene';
 import './index.css';
 import './App.css';
-import '@esri/calcite-components/dist/components/calcite-shell';
-import '@esri/calcite-components/dist/components/calcite-panel';
-import '@esri/calcite-components/dist/components/calcite-list';
-import '@esri/calcite-components/dist/components/calcite-label';
-import '@esri/calcite-components/dist/components/calcite-list-item';
-import '@esri/calcite-components/dist/components/calcite-chip';
-import '@esri/calcite-components/dist/components/calcite-avatar';
-import '@esri/calcite-components/dist/components/calcite-shell-panel';
-import '@esri/calcite-components/dist/components/calcite-action';
-import '@esri/calcite-components/dist/components/calcite-action-bar';
-import '@esri/calcite-components/dist/components/calcite-tabs';
-import '@esri/calcite-components/dist/components/calcite-tab';
-import '@esri/calcite-components/dist/components/calcite-button';
-import '@esri/calcite-components/dist/components/calcite-tab-title';
-import '@esri/calcite-components/dist/calcite/calcite.css';
-import {
-  CalciteShell,
-  CalciteShellPanel,
-  CalciteActionBar,
-  CalciteAction,
-  CalciteTab,
-  CalciteTabs,
-  CalciteTabNav,
-  CalciteTabTitle,
-  CalcitePanel,
-  CalciteList,
-  CalciteListItem,
-  CalciteLabel,
-  CalciteButton,
-  CalciteChip,
-  CalciteAvatar,
-} from '@esri/calcite-components-react';
-import { damage_points_rating, zoomToLayer } from './Query';
 import 'flowbite';
 import { damage_points_layer } from './layers';
 import StreetNameList from './components/StreeNameList';
-import FeatureFilter from '@arcgis/core/layers/support/FeatureFilter';
 import Chart from './components/Chart';
-import StreetInfo from './components/StreetInfo';
 import StreetIdList from './components/StreetIdList';
 import StreetClassList from './components/StreetClassList';
 

@@ -17,11 +17,10 @@ import {
   generateTotalRatings,
   repairCostSummary,
   repaired_status_value,
-  thousands_separators,
 } from '../Query';
 
 import { CalciteLabel } from '@esri/calcite-components-react';
-import { damage_points_rating, damage_points_symbol_ref } from '../Query';
+import { damage_points_rating } from '../Query';
 
 // Dispose function
 function maybeDisposeRoot(divId: any) {

@@ -1,12 +1,9 @@
 import SceneView from '@arcgis/core/views/SceneView';
 import Map from '@arcgis/core/Map';
-import BasemapGallery from '@arcgis/core/widgets/BasemapGallery';
 import LayerList from '@arcgis/core/widgets/LayerList';
 import Search from '@arcgis/core/widgets/Search';
 import Home from '@arcgis/core/widgets/Home';
 import Expand from '@arcgis/core/widgets/Expand';
-import GroupLayer from '@arcgis/core/layers/GroupLayer';
-import Locate from '@arcgis/core/widgets/Locate.js';
 import Popup from '@arcgis/core/widgets/Popup';
 
 import SceneLayer from '@arcgis/core/layers/SceneLayer';
@@ -87,12 +84,6 @@ const toggle = new BasemapToggle({
   nextBasemap: 'hybrid',
 });
 view.ui.add(toggle, 'top-right');
-
-function catchAbortError(error: any) {
-  if (error.name != 'AbortError') {
-    console.error(error);
-  }
-}
 
 // Open Street Map 3D buildings
 // OpenStreetMap 3D Buildings

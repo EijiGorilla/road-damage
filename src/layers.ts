@@ -8,13 +8,9 @@ import {
   TextSymbol3DLayer,
   LabelSymbol3D,
   SimpleLineSymbol,
-  PolygonSymbol3D,
-  ExtrudeSymbol3DLayer,
   PointSymbol3D,
   IconSymbol3DLayer,
-  SimpleMarkerSymbol,
 } from '@arcgis/core/symbols';
-import SolidEdges3D from '@arcgis/core/symbols/edges/SolidEdges3D';
 import CustomContent from '@arcgis/core/popup/content/CustomContent';
 import PopupTemplate from '@arcgis/core/PopupTemplate';
 import {
@@ -137,6 +133,7 @@ export const municipal_bdry_layer = new FeatureLayer({
   layerId: 4,
   renderer: municipal_bdry_renderer,
   labelingInfo: [municipal_bdry_label],
+  definitionExpression: 'Filter = 1',
   popupEnabled: false,
 });
 

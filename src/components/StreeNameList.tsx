@@ -18,8 +18,6 @@ import {
   CalciteAvatar,
 } from '@esri/calcite-components-react';
 import { view } from '../Scene';
-
-import * as reactiveUtils from '@arcgis/core/core/reactiveUtils';
 import { damage_points_rating } from '../Query';
 
 // Zoom in to selected lot from expropriation list
