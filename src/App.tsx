@@ -137,11 +137,10 @@ function App() {
               <div className="text-[#FFA500] font-bold">ABOUT THIS APP</div>
               <div>
                 {' '}
-                This sample web app visualizes assessment results of road damages including damage
-                rating and repairing cost through map and charts. The numver of listed items is
-                dynamically updated in response to changing view on the map. You can click the name
-                on the list and the map zooms into the specific point and also view the information
-                popup.
+                This sample web app visualizes the results of road damage assessment including
+                damage rating and repairing cost through map and charts. The number of listed items
+                is dynamically updated in response to changing view on the map. You can click the
+                name on the list and the map zooms into the selected point with information popup.
                 <div className="text-[#FFA500] pt-5">How to Use this APP</div>
                 You can see a list of streets under assessment by three categories: STREET, ID, or
                 CLASS.

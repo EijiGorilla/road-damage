@@ -42,7 +42,7 @@ const road_network_renderer = new UniqueValueRenderer({
 
 export const road_network_layer = new FeatureLayer({
   portalItem: {
-    id: 'b33b37efbb0e41598d86b572db2f059c',
+    id: '24b524e951ac478ca42571ce7558dbb3',
   },
   title: 'Major Road',
   popupEnabled: false,
@@ -66,7 +66,7 @@ const express_renderer = new SimpleRenderer({
 
 export const express_road_layer = new FeatureLayer({
   portalItem: {
-    id: 'b33b37efbb0e41598d86b572db2f059c',
+    id: '24b524e951ac478ca42571ce7558dbb3',
   },
   title: 'Expressway',
   layerId: 3,
@@ -127,7 +127,7 @@ const municipal_bdry_renderer = new SimpleRenderer({
 
 export const municipal_bdry_layer = new FeatureLayer({
   portalItem: {
-    id: 'b33b37efbb0e41598d86b572db2f059c',
+    id: '24b524e951ac478ca42571ce7558dbb3',
   },
   title: 'Municipal Boundary',
   layerId: 4,
@@ -251,7 +251,7 @@ const templatePopup = new PopupTemplate({
 
 export const damage_points_layer = new FeatureLayer({
   portalItem: {
-    id: 'b33b37efbb0e41598d86b572db2f059c',
+    id: '24b524e951ac478ca42571ce7558dbb3',
   },
 
   title: 'Damage Ratings of Road',
