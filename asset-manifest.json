@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/road-damage/static/css/main.34e15687.css",
-    "main.js": "/road-damage/static/js/main.fbbd3b55.js",
+    "main.js": "/road-damage/static/js/main.f022a389.js",
     "static/js/4458.d5a9148d.chunk.js": "/road-damage/static/js/4458.d5a9148d.chunk.js",
     "static/js/5977.b9124b1c.chunk.js": "/road-damage/static/js/5977.b9124b1c.chunk.js",
     "static/js/5665.15c7f08f.chunk.js": "/road-damage/static/js/5665.15c7f08f.chunk.js",
@@ -366,7 +366,7 @@
     "static/media/SM-Slider_TrackBackground_hover.svg": "/road-damage/static/media/SM-Slider_TrackBackground_hover.5dcf34ac7d59f98735ad.svg",
     "static/media/SM-Slider_TrackBackground_idle.svg": "/road-damage/static/media/SM-Slider_TrackBackground_idle.cc7bd7014a003ba1844f.svg",
     "main.34e15687.css.map": "/road-damage/static/css/main.34e15687.css.map",
-    "main.fbbd3b55.js.map": "/road-damage/static/js/main.fbbd3b55.js.map",
+    "main.f022a389.js.map": "/road-damage/static/js/main.f022a389.js.map",
     "4458.d5a9148d.chunk.js.map": "/road-damage/static/js/4458.d5a9148d.chunk.js.map",
     "5977.b9124b1c.chunk.js.map": "/road-damage/static/js/5977.b9124b1c.chunk.js.map",
     "5665.15c7f08f.chunk.js.map": "/road-damage/static/js/5665.15c7f08f.chunk.js.map",
@@ -618,6 +618,6 @@
   },
   "entrypoints": [
     "static/css/main.34e15687.css",
-    "static/js/main.fbbd3b55.js"
+    "static/js/main.f022a389.js"
   ]
 }
